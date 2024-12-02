@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <link rel="icon" href="images/logo-title.png" type="image/icon type"> <!-- gắn icon trên tiêu đề -->
+
+  <title>Ta Anh Nguyen</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Custom styles for this template -->
+  <link href=" css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section" id="home_">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container d-block">
+          <div class="main_nav_menu">
+            <div class="fk_width">
+              <div class="custom_menu-btn">
+                <button onclick="openNav()">
+                  <span class="s-1"> </span>
+                  <span class="s-2"> </span>
+                  <span class="s-3"> </span>
+                </button>
+              </div>
+              <div id="myNav" class="overlay">
+                <div class="overlay-content">
+                  <a class="" href="#home_">Home <span class="sr-only">(current)</span></a>
+                  <a class="" href="#About">About </a>
+                  <a class="" href="#Gallery">Gallery </a>
+                  <!-- <a class="" href="#Blog">Blog </a> -->
+                  <!-- <a class="" href="#Testimonial">Testimonial </a> -->
+                </div>
+              </div>
+            </div>
+            <a class="navbar-brand" href="index.html" >
+              <span>
+                <img src="images/logo.png">
+              </span>
+            </a>
+            <div class="user_option">
+              <a href="#">
+                <!-- login  -->
+              </a>
+              <!-- <form class="form-inline ">
+                <button class="btn  nav_search-btn" type="submit"></button>
+              </form> -->
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div class="container-fluid">
+        <div class="row slider-row">
+          <div class="col-lg-3 offset-lg-1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="detail-box">
+                    <h1>
+                      WEL<br>COME</br>
+                    </h1>
+                    <p>
+                      Chào mừng bạn đến với page của mình.
+                    </p>
+                    <div>
+                      <a href="#" >
+                        Xem Thêm
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="detail-box">
+                    <h1>
+                      Ta <br />
+                      Anh Nguyen
+                    </h1>
+                    <p>
+                      Mình là Tạ Anh Nguyên là một người đẹp.
+                    </p> 
+                    <div>
+                      <a href="#" id="openModal">
+                        Xem Thêm
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel_control-box">
+                <div class="carousel_btn-container">
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active li_one">01</li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1" class="li_two">02</li>
+                  <li class="ol_design"></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 px-0">
+            <div class="img-box">
+              <img src="images/slider-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding" id="About">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About
+              </h2>
+              <p>
+                Tôi là một coder mới học html, css, javascript chưa có được nhiều kinh nghiệm.
+              </p>
+              <a href="#">
+                Xem Thêm
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <div class="play_btn">
+        <a href="#">
+          <img src="images/play.png" alt="" />
+        </a>
+      </div>
+      <img src="images/about-img.png" class="about-img" alt="" />
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- gallery section -->
+  <section class="gallery_section layout_padding-top" id="Gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 ml-auto">
+          <div class="heading_container">
+            <h2>
+              Project
+            </h2>
+            <p>
+              Hiện tại mình là một Coder,Photographer,Editor,Designer,Camera Operator. Nên có rất nhiều project chưa upload lên.
+            </p>
+            <a href="">
+              Xem Thêm
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery_container">
+      <div class="gallery_bg">
+        <img src="images/gallery-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="gallery_box">
+          <div class="box b1">
+            <div class="img-box">
+              <img src="images/gallery-1.jpg" alt="" />
+              <h5>
+                photograper
+              </h5>
+            </div>
+          </div>
+          <div class="box b2">
+            <div class="img-box">
+              <img src="images/gallery-2.jpg" alt="" />
+              <h5>
+                Editor 
+              </h5>
+            </div>
+            <div class="img-box">
+              <img src="images/gallery-3.jpg" alt="" />
+              <h5>
+                Designer
+              </h5>
+            </div>
+          </div>
+          <div class="box b3">
+            <div class="img-box">
+              <img src="images/gallery-4.jpg" alt="" />
+              <h5>
+                Cam op
+              </h5>
+            </div>
+            <div class="img-box">
+              <img src="images/gallery-5.jpg" alt="" />
+              <h5>
+                coder
+              </h5>
+            </div>
+          </div>
+          <div class="box b4">
+            <div class="img-box">
+              <img src="images/gallery-6.jpg" alt="" />
+              <h5>
+                ...
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end gallery section -->
+
+  <!-- info section -->
+
+  <section class="info_section " id="Infomation">
+    <div class="info_container layout_padding-top">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Contact Us
+          </h2>
+        </div>
+        <div class="info_main">
+          <div class="row">
+            <div class="col-md-4 col-lg-3">
+              <div class="info_contact ">
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="images/location.png" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      Ho Chi Minh City
+                    </h6>
+                  </div>
+                </a>
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="images/mail.png" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      taanhnguyendz@gmail.com
+                    </h6>
+                  </div>
+                </a>
+                <a href="#" class="link-box">
+                  <div class="img-box">
+                    <img src="images/call.png" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h6>
+                      +84971084962
+                    </h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-2 col-lg-3">
+              <div class="info_link-box">
+                <ul>
+                  <li class=" ">
+                    <a class="" href="#home_">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="">
+                    <a class="" href="#About">About </a>
+                  </li>
+                  <li class="">
+                    <a class="" href="#Gallery">Gallery </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 ">
+              <div class="social_box">
+                <a href="#">
+                  <img src="images/facebook.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="images/twitter.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="images/linkedin.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="images/instagram.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="images/youtube.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <footer class="footer_section ">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved. Retouch by
+        <a href="#">Ta Anh Nguyen</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- open detail page -->
+  <div class="modal" id="myModal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeModal"></span>
+    <h3>Ta Anh Nguyen</h3>
+    <p>My name is Ta Anh Nguyen, born in 2006 in Gia Lai, and I am currently living and working in Ho Chi Minh City. With a deep passion for both technology and art, I am a versatile and creative individual specializing in various fields such as programming (coder), graphic design (designer), photography (photographer), video editing (editor), and cinematography (camera operator). Known for my ability to blend technical expertise with artistic creativity, I not only develop websites but also create visually stunning graphics and captivating videos. <br></br>
+
+    With determination and a growth mindset, I am always looking for ways to explore and improve my skills, continuously learning to deliver the highest quality work. I strive to combine creativity in my design and video production while utilizing my programming skills to create innovative and effective solutions. Thanks to my passion and diverse skill set, I am steadily establishing myself through both personal projects and professional work.</p>
+  </div>
+  </div>
+
+
+  <!-- close detail page -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
